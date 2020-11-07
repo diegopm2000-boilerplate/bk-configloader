@@ -6,10 +6,17 @@ __Travis CI__:
 
 __Sonarcloud__: 
 [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=bk-configloader)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=bugs)](https://sonarcloud.io/dashboard?id=bk-configloader)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=bk-configloader)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=sqale_index)](https://sonarcloud.io/dashboard?id=bk-configloader)[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=code_smells)](https://sonarcloud.io/dashboard?id=bk-configloader)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=bk-configloader)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=coverage)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=bugs)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=sqale_index)](https://sonarcloud.io/dashboard?id=bk-configloader)[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=code_smells)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=bk-configloader&metric=coverage)](https://sonarcloud.io/dashboard?id=bk-configloader)
+
+__Coveralls__:
+[![Coverage Status](https://coveralls.io/repos/github/diegopm2000-boilerplate/bk-configloader/badge.svg?branch=master)](https://coveralls.io/github/diegopm2000-boilerplate/bk-configloader?branch=master)
+
+__Snyk__:
+[![Known Vulnerabilities](https://snyk.io/test/github/diegopm2000-boilerplate/bk-configloader/badge.svg?targetFile=package.json)](https://snyk.io/test/github/diegopm2000-boilerplate/bk-configloader?targetFile=package.json)
 
 Bokarte Config Loader
 
