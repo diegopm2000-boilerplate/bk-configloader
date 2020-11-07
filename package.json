@@ -40,5 +40,11 @@
     "include": [
       "index.js"
     ]
-  }
+  },
+  "keywords": [
+    "configloader",
+    "npm",
+    "diegopm2000",
+    "package"
+  ]
 }
