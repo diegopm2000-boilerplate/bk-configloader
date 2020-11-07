@@ -1,0 +1,43 @@
+{
+  "name": "bk-configloader",
+  "version": "0.1.0",
+  "description": "Bokarte ConfigLoader for loading config from local file or remote endpoint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint 'index.js'",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive --timeout 20000 --reporter spec --exit",
+    "coverage": "nyc --reporter=text --reporter=lcov npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegopm2000-boilerplate/bk-configloader.git"
+  },
+  "author": "Diego Perez Molinero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegopm2000-boilerplate/bk-configloader/issues"
+  },
+  "homepage": "https://github.com/diegopm2000-boilerplate/bk-configloader#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fs-readfile-promise": "^3.0.1",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "rewire": "^5.0.0",
+    "sinon": "^9.2.1"
+  },
+  "nyc": {
+    "all": true,
+    "check-coverage": true,
+    "include": [
+      "index.js"
+    ]
+  }
+}

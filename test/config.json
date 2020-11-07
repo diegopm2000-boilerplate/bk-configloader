@@ -1,0 +1,13 @@
+{
+  "app":{
+     "name":"example App",
+     "description":"example App - configuration obtained from local yml file",
+     "environment":"development"
+  },
+  "log":{
+     "level":"debug"
+  },
+  "express":{
+     "port":8080
+  }
+}
