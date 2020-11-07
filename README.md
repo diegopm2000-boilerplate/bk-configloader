@@ -1,6 +1,7 @@
 # bk-configloader
 
 ![npm (scoped)](https://img.shields.io/npm/v/@diegopm2000/bk-configloader)
+![travis build](https://travis-ci.org/diegopm2000-boilerplate/bk-configloader.svg?branch=master)
 
 Bokarte Config Loader
 
