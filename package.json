@@ -1,12 +1,13 @@
 {
   "name": "@diegopm2000/bk-configloader",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Bokarte ConfigLoader for loading config from local file or remote endpoint",
   "main": "index.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint 'index.js'",
     "test": "node ./node_modules/mocha/bin/mocha --recursive --timeout 20000 --reporter spec --exit",
-    "coverage": "nyc --reporter=text --reporter=lcov npm test"
+    "coverage": "nyc --reporter=text --reporter=lcov npm test",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
     "eslint": "^7.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",

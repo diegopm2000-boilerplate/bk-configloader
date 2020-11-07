@@ -1,2 +1,13 @@
 language: node_js
 node_js: 12.18.0
+
+jdk:
+  - oraclejdk8
+addons:
+  sonarcloud: true
+script:
+  - npm run coverage
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=diegopm2000-github -Dsonar.projectKey=bk-configloader -Dsonar.sources='./' -X
+
+after_success:
+ — npm run coveralls
