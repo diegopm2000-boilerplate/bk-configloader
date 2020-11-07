@@ -1,7 +1,15 @@
-# bk-configloader
+# @diegopm2000@bk-configloader
 
+__Travis CI__:
 ![npm (scoped)](https://img.shields.io/npm/v/@diegopm2000/bk-configloader)
 ![travis build](https://travis-ci.org/diegopm2000-boilerplate/bk-configloader.svg?branch=master)
+
+__Sonarcloud__: 
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=bugs)](https://sonarcloud.io/dashboard?id=bk-configloader)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=sqale_index)](https://sonarcloud.io/dashboard?id=bk-configloader)[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=code_smells)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=bk-configloader)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=CalculatorNodeJS&metric=coverage)](https://sonarcloud.io/dashboard?id=bk-configloader)
 
 Bokarte Config Loader
 
