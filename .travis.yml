@@ -8,3 +8,6 @@ addons:
 script:
   - npm run coverage
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=diegopm2000-github -Dsonar.projectKey=bk-configloader -Dsonar.sources='./' -X
+
+after_success:
+ — npm run coveralls
