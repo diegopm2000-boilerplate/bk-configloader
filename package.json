@@ -1,5 +1,5 @@
 {
-  "name": "bk-configloader",
+  "name": "@diegopm2000/bk-configloader",
   "version": "0.1.0",
   "description": "Bokarte ConfigLoader for loading config from local file or remote endpoint",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/diegopm2000-boilerplate/bk-configloader.git"
   },
   "author": "Diego Perez Molinero",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/diegopm2000-boilerplate/bk-configloader/issues"
   },
@@ -21,6 +21,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "fs-readfile-promise": "^3.0.1",
+    "user": "0.0.0",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
