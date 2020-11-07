@@ -1,7 +1,7 @@
 {
   "app":{
      "name":"example App",
-     "description":"example App - configuration obtained from local yml file",
+     "description":"example App - configuration obtained from local json file",
      "environment":"development"
   },
   "log":{
