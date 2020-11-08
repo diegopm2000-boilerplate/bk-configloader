@@ -48,7 +48,7 @@ express:
 Example:
 
 ```javascript
-const configLoader = require('bk-configloader');
+const configLoader = require('@diegopm2000/bk-configloader');
 
 const options = {
   sourceType: configLoader.SOURCE_TYPE_FILE,
