@@ -11,21 +11,27 @@
 
 BK (Bokarte) Config Loader
 
-Utility to be used in your __Node JS__ projects to allow loading configuration files from a local file in your system or loading from a remote endpoint.
+Utility to be used in your __Node JS__ projects to allow loading configuration files from a local file in your system or loading configuration files from a remote endpoint. Specially recommended to use with a Spring Cloud Config service that serves the configuration stored in a GIT repository.
 
 ## 1. Install
 
 ```shell
-$ npm install @diegopm2000/bk-configloader
+npm install @diegopm2000/bk-configloader
+```
+
+You can install the package in your project package json too:
+
+```shell
+npm install @diegopm2000/bk-configloader --save
 ```
 
 ## 2. Usage
 
 ### 2.1 Loading config from file
 
-Loading config from file. Only json or yaml file, witn .yml and .yaml extensions are allowed.
+Loading config from file. Only json or yaml file, both .yml and .yaml extensions are allowed.
 
-Create this file config.yml for testing and put in the same folder of your project
+Create in your local project path this file config.yml for testing and put in the same folder of your project. Recommended for development environments.
 
 ```yml
 ---
@@ -60,9 +66,9 @@ configLoader.load(options)
 
 ### 2.2 Loading config from remote endpoint
 
-Loading config from remote endpoint. 
+Loading config from remote endpoint.
 
-You could use a spring cloud config based loader from GIT for example or another api rest for your convenience.
+You could use a spring cloud config based loader from GIT for example or another api rest for your convenience. Recommended for production environments, when you want that the application configuration will be decentralized.
 
 ```javascript
 const configLoader = require('bk-configloader');
