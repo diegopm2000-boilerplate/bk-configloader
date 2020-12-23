@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/diegopm2000-boilerplate/bk-configloader#readme",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "fs-readfile-promise": "^3.0.1",
     "yaml": "^1.10.0"
   },
