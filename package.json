@@ -22,7 +22,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "fs-readfile-promise": "^3.0.1",
-    "yaml": "^1.10.0"
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
