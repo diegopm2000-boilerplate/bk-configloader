@@ -1,6 +1,6 @@
 {
   "name": "@diegopm2000/bk-configloader",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Bokarte ConfigLoader for loading config from local file or remote endpoint",
   "main": "index.js",
   "scripts": {
